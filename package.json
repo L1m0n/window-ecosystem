@@ -18,11 +18,12 @@
   },
   "homepage": "https://github.com/L1m0n/window-ecosystem#readme",
   "dependencies": {
-    "lodash": "^4.17.21",
     "bh1750": "^0.0.5",
     "coffee-script": "^1.12.7",
     "crc": "^3.8.0",
-    "i2c-bus": "^5.1.0"
+    "i2c-bus": "^5.1.0",
+    "lodash": "^4.17.21",
+    "mongodb": "^3.6.6"
   },
   "devDependencies": {
     "@egy186/eslint-config": "^0.47.0",
