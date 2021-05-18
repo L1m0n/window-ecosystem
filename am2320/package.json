@@ -3,6 +3,7 @@
   "description": "AM2320 in Node.js",
   "version": "0.3.0",
   "author": "egy186",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/egy186/am2320/issues"
   },
