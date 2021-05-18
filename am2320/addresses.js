@@ -1,5 +1,3 @@
-'use strict';
-
 const addresses = {
   ADDR: 0xB8 >> 1,
   H_HUMID: 0x00,
@@ -9,4 +7,4 @@ const addresses = {
   READ_FUNC: 0x03
 };
 
-module.exports = addresses;
+export default addresses;

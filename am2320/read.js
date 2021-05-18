@@ -1,7 +1,5 @@
-'use strict';
-
-const i2c = require('i2c-bus');
-const getData = require('./get-data');
+import i2c from 'i2c-bus';
+import getData from './get-data.js';
 
 const read = async busNumber => {
   const bus = await i2c.openPromisified(busNumber);

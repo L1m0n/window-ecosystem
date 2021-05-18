@@ -1,7 +1,5 @@
-'use strict';
-
-const addrs = require('./addresses');
-const crc = require('crc');
+import addrs from './addresses.js';
+import crc from 'crc';
 
 const sleep = msec => new Promise(resolve => {
   setTimeout(resolve, msec);
@@ -34,4 +32,4 @@ const getData = async bus => {
   return data;
 };
 
-module.exports = getData;
+export default getData;
