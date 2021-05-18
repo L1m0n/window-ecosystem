@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "@egy186/eslint-config",
+    "@egy186/eslint-config/node"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "example/*"
+      ],
+      "rules": {
+        "no-console": "off"
+      }
+    }
+  ]
+}
