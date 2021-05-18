@@ -1,5 +1,5 @@
-const AM2330 = require('../am2320');
-const BH1750 = require('bh1750');
+const AM2330 = import('../am2320');
+const BH1750 = import('bh1750');
 
 const light = new BH1750();
 
