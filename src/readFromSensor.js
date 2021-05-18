@@ -1,4 +1,4 @@
-const AM2330 = require('../vendors/am2320');
+const AM2330 = require('../2/am2320');
 const BH1750 = require('bh1750');
 
 const light = new BH1750();
