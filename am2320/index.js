@@ -1,11 +1,7 @@
-'use strict';
-
-const read = require('./read');
-const event = require('./event');
+import read from './read.js';
 
 const am2320 = {
-  event,
   read
 };
 
-module.exports = am2320;
+export default am2320;
