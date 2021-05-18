@@ -1,4 +1,4 @@
-import AM2330 from '../am2320';
+import AM2330 from '../am2320/index.js';
 import BH1750 from 'bh1750';
 
 const light = new BH1750();
