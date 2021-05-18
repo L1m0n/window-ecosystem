@@ -10,4 +10,4 @@ const read = async busNumber => {
   return data;
 };
 
-module.exports = read;
+export default read;
